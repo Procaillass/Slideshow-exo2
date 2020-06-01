@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(44, 42, 42);
+}
+
+button {
+  width: 100px;
+
+  height: 2em;
+}
+
+.leftButton {
+  border-radius: 15px 0 0 15px;
+  background-color: #232323;
+  color: rgb(221, 221, 221);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.rightButton {
+  border-radius: 0 15px 15px 0;
+  background-color: #232323;
+  color: rgb(221, 221, 221);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.global {
+  display: flex;
+  margin: auto;
+  overflow: hidden;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.disable {
+  display: none;
+}
